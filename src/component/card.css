@@ -1,0 +1,15 @@
+
+.card_section{
+    width: 90%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icon{
+    font-size: 5rem;
+    text-align: center
+    
+    
+}

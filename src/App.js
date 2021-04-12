@@ -1,24 +1,103 @@
-import logo from './logo.svg';
-import './App.css';
+import { Row, Col } from "antd";
+import React from "react";
+import "./App.css";
+
+import Nav from "./component/NavBar";
+
+import { BackTop } from "antd";
+import Header from "./component/Header";
+import IconCard from "./component/card";
+import Product from "./component/ProductPricing";
+import Features from "./component/features";
+import OurResults from "./component/OurResults";
+import Review from "./component/Review";
+import Feedback from "./Feedback";
+import SignUp from "./component/SignUP";
+import Footer from "./component/Footer";
+
+const contentStyle = {
+  height: "160px",
+  color: "#fff",
+  lineHeight: "160px",
+  textAlign: "center",
+  background: "#364d79",
+};
+const style = {
+  height: 40,
+  width: 40,
+  lineHeight: "40px",
+  borderRadius: 4,
+  backgroundColor: "#1088e9",
+  color: "#fff",
+  textAlign: "center",
+  fontSize: 14,
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Row>
+        <Col span={24}>
+          <Nav />
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <div className="main_header">
+            <Header />
+          </div>
+        </Col>
+      </Row>
+
+      <Row>
+        <IconCard />
+      </Row>
+      <Row>
+        <Col span={24}>
+          <div className="main_features">
+            <Features />
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <div className="main_features">
+            <OurResults />
+          </div>
+        </Col>
+      </Row>
+      <Row>
+        <Col span={24}>
+          <Review />
+        </Col>
+      </Row>
+      <Row className="row_height">
+        <Col span={24}>
+          <Product />
+        </Col>
+      </Row>
+      <Row className="row_height">
+        <Col span={24}>
+          <div className="main_feedback">
+            <Feedback />
+          </div>
+        </Col>
+      </Row>
+      <Row className="row_height">
+        <Col span={24}>
+          <SignUp />
+        </Col>
+      </Row>
+      <Row className="row_height">
+        <Col span={24}>
+          <Footer />
+        </Col>
+      </Row>
+
+      <BackTop>
+        <div style={style}>UP</div>
+      </BackTop>
+    </>
   );
 }
 

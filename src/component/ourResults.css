@@ -1,0 +1,19 @@
+.our_result_cards{
+    display: flex;
+    justify-content: space-between;
+}
+.our_results{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    height: 80vh;
+    justify-content: center;
+}
+.our_results p,h1{
+    text-align: center;
+}
+.our_results_icon{
+    font-size: 4rem;
+}

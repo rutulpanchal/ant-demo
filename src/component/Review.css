@@ -1,0 +1,18 @@
+.Review{
+    display: flex;
+    margin: auto;
+    background-color:#c2c2c2 ;
+    align-items: center;
+    height: 50vh;
+
+}
+.Carousel{
+    width: 50%;
+}
+h3{
+    font-size: 1.5rem;
+    overflow: hidden;
+}
+p{
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.features_wrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    background-color:rgb(221, 221, 221);
+    padding: 10px;
+    line-height: 3rem;
+}
