@@ -15,13 +15,6 @@ import Feedback from "./Feedback";
 import SignUp from "./component/SignUP";
 import Footer from "./component/Footer";
 
-const contentStyle = {
-  height: "160px",
-  color: "#fff",
-  lineHeight: "160px",
-  textAlign: "center",
-  background: "#364d79",
-};
 const style = {
   height: 40,
   width: 40,
@@ -68,7 +61,9 @@ function App() {
       </Row>
       <Row>
         <Col span={24}>
-          <Review />
+          <div className="main_review">
+            <Review />
+          </div>
         </Col>
       </Row>
       <Row className="row_height">

@@ -1,18 +1,26 @@
-.Review{
-    display: flex;
-    margin: auto;
-    background-color:#c2c2c2 ;
-    align-items: center;
-    height: 50vh;
-
+.Review {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  background-color: #c2c2c2;
+  align-items: center;
+  min-height: 50vh;
+  flex-wrap: wrap;
 }
-.Carousel{
-    width: 50%;
+.Carousel {
+  align-self: center;
+  width: 50%;
+  margin-left: 20px;
 }
-h3{
-    font-size: 1.5rem;
-    overflow: hidden;
+h3 {
+  font-size: 1.5rem;
+  overflow: hidden;
 }
-p{
-    text-align: center;
+p {
+  flex-wrap: wrap;
+  text-align: center;
+  overflow: hidden;
+}
+p span {
+  margin: 10px;
 }

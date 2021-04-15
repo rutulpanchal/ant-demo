@@ -1,19 +1,21 @@
-@import '~antd/dist/antd.css';
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import "~antd/dist/antd.css";
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
-.row_height{
+.row_height {
   min-height: 100px;
-  
+
   margin: 5px;
-  
 }
-.main_header{
- background-color:  rgb(231, 231, 231); ;
+.main_header {
+  background-color: rgb(231, 231, 231);
 }
-h1{
-font-family: 'Anton', sans-serif;
+h1 {
+  font-family: "Anton", sans-serif;
 }
-.main_feedback{
+.main_feedback {
   background-color: rgb(211, 211, 211);
   padding: 100px;
+}
+.main_review {
+  background-color: #c2c2c2;
 }

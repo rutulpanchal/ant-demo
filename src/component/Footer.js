@@ -1,5 +1,5 @@
-import { Breadcrumb, Menu } from "antd";
-import { Button } from "antd";
+import { Breadcrumb } from "antd";
+
 import "./Footer.css";
 import {
   InstagramOutlined,
@@ -35,10 +35,10 @@ const Footer = () => {
             <InstagramOutlined />
           </Breadcrumb.Item>
           <Breadcrumb.Item>
-          <TwitterOutlined />
+            <TwitterOutlined />
           </Breadcrumb.Item>
           <Breadcrumb.Item>
-          <LinkedinOutlined />
+            <LinkedinOutlined />
           </Breadcrumb.Item>
           <Breadcrumb.Item>
             <InstagramOutlined />

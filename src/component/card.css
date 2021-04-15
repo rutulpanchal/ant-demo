@@ -1,15 +1,18 @@
-
-.card_section{
-    width: 90%;
-    margin: auto;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.card_section {
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  text-decoration: underline;
 }
-.icon{
-    font-size: 5rem;
-    text-align: center
-    
-    
+.icon {
+  font-size: 5rem;
+  text-align: center;
+}
+.card {
+  background-color: rgb(206, 232, 255);
 }

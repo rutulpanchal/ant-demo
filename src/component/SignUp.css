@@ -1,11 +1,17 @@
-.signup{
-    height: 50vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-
+.signup {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
-.signup_button{
-    display: flex;
+.signup_input {
+  display: flex;
+  width: 700px;
+  height: 50px;
+  flex-wrap: wrap;
+}
+.signup_button {
+  width: 200px;
+  height: 50px;
 }
